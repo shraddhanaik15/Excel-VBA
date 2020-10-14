@@ -1,0 +1,15 @@
+#print hello in message box.
+Sub Test()
+MsgBox "Hello"
+End Sub
+
+#change cells colours.
+Sub Test()
+Selection.Interior.ColorIndex = 9
+End Sub
+
+#print value of selected cells in msgbox
+Sub Test()
+MsgBox Selection.Interior.ColorIndex
+End Sub
+
